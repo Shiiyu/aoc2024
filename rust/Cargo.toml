@@ -1,0 +1,9 @@
+[package]
+name = 'aoc2023'
+authors = ['Shiiyu']
+version = '0.1.0'
+edition = '2021'
+publish = false
+
+[dependencies]
+prettytable-rs = "0.10.0"

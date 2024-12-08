@@ -1,0 +1,11 @@
+{
+  "name": "aoc2023",
+  "version": "0.1.0",
+  "description": "Advent of Code 2023",
+  "main": "index.js",
+  "author": "Shiiyu",
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
