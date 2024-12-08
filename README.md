@@ -1,2 +1,7 @@
-# aoc2024
-My solutions for Advent of Code 2024
+# Advent of Code 2024
+
+These are my solutions for AoC 2024.
+
+## AoC Puzzles
+
+https://adventofcode.com/2024
