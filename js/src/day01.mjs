@@ -32,17 +32,8 @@ export function solve_b() {
     }, [[], []]);
   let sum = 0;
 
-  for(let i = 0; i < listOne.length; i++) {
-    let count = 0;
-
-    for(let j = 0; j < listTwo.length; j++) {
-      if(listOne[i] === listTwo[j])
-        count++;
-    }
-
-    sum += listOne[i] * count;
-    count = 0;
-  }
+  for(let i = 0; i < listOne.length; i++)
+    sum += listOne[i] * listTwo.filter(n => n === listOne[i]).length;
 
   return sum;
 }
