@@ -70,10 +70,6 @@ export function solve_b() {
 
       }
 
-      isSafe ? null : console.log(report);
-      isSafe ? null : console.log(sortedReport);
-      isSafe ? null : console.log("------------");
-
       return safe += isSafe;
     }, 0);
 }
