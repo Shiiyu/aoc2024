@@ -12,7 +12,7 @@ export function solve_a() {
 
       return nums;
     }, [[], []])
-    .map(nums => nums.sort());
+    .map(nums => nums.sort((a, b) => a - b));
   let sum = 0;
 
   for(let i = 0; i < listOne.length; i++)
